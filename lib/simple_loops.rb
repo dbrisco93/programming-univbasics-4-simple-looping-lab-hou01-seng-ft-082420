@@ -20,7 +20,7 @@ def loop_message_n_times(message, limit)
 end
 
 def output_array(array)
-  count = 10
+  count = 0
   while count < array.length do
     puts array[count]
     count += 1
